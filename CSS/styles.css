@@ -1,12 +1,77 @@
 body {
     font-family: 'PT Serif', serif;
+   
+/* main styles */
 }
 .main {
-
+display: flex;
+flex-direction: row;
+width: 1200px;
+margin: 0 auto;
+background-color: #fff;
+}
+.main-content{
+    padding: 30px 30px 30px 30px;
+    order: 1;
+    background-color: azure;
+    width: 550px;
 }
 .pitomnik {
-    color: aquamarine;
+    color: coral;
+    margin-bottom: 5px;
 }
 .nazvanie-pitomnika{
-    color: bisque;
+    color: red;
+}
+.bio{
+    margin-right: 5px;
+}
+.titles{
+    color: coral;
+}
+.dogs{
+    padding: 0;
+    margin-left: 15px;
+}
+.points{
+    color:rgb(159, 228, 159);
+}
+.pluses{
+    color: black;
+}
+.point{
+    color: red;
+}
+
+/* sidebar contacts*/
+.sidebar{
+    background-color: lemonchiffon;
+    width: 340px;
+}
+
+.photo1{
+    height: 240px;
+    width: 340px;
+    }
+.photo2{
+    height: 490px;
+    width: 340px;
+    }    
+
+.contacts{
+    margin-top: 100px;
+    margin-right: 20px;
+    padding-left: 10px;
+  
+}
+/* sidebar logo */
+.sidebar2{
+    order: 1;
+    background-color: azure;
+    width: 200px;
+}
+.photo {
+    height: 150px;
+    margin-top: 55px;
+    padding-left: 10px;
 }
